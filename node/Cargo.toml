@@ -1,17 +1,17 @@
 [package]
-name = 'node-template'
-version = '4.0.0-dev'
+name = 'labor-node'
+version = '0.0.1-dev'
 description = 'A fresh FRAME-based Substrate node, ready for hacking.'
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
-homepage = 'https://substrate.io/'
+authors = ['Martijn Benjamin <https://github.com/benjamin-martijn>']
+homepage = 'https://github.com/benjamin-martijn/labor-node'
 edition = '2021'
-license = 'Unlicense'
+license = 'MIT'
 publish = false
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+repository = 'https://github.com/benjamin-martijn/labor-node/'
 build = 'build.rs'
 
 [[bin]]
-name = 'node-template'
+name = 'labor-node'
 
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']
