@@ -1,7 +1,5 @@
 # Labor Node
 
-[![Matrix](https://img.shields.io/matrix/substrate-technical:matrix.org)](https://matrix.to/#/#substrate-technical:matrix.org)
-
 A FRAME-based [Substrate](https://www.substrate.io/) node to run the Labor chain :rocket:
 
 ## Getting Started
