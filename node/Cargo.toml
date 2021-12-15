@@ -1,7 +1,7 @@
 [package]
 name = 'labor-node'
 version = '0.0.1-dev'
-description = 'A fresh FRAME-based Substrate node, ready for hacking.'
+description = 'A FRAME-based Substrate node for the Labor chain'
 authors = ['Martijn Benjamin <https://github.com/benjamin-martijn>']
 homepage = 'https://github.com/benjamin-martijn/labor-node'
 edition = '2021'
@@ -21,9 +21,9 @@ git = 'https://github.com/paritytech/substrate.git'
 tag = 'devhub/latest'
 version = '3.0.0'
 
-[dependencies.node-template-runtime]
+[dependencies.labor-node-runtime]
 path = '../runtime'
-version = '4.0.0-dev'
+version = '0.0.1-dev'
 
 [dependencies]
 jsonrpc-core = '18.0.0'
@@ -169,4 +169,4 @@ version = '4.0.0-dev'
 
 [features]
 default = []
-runtime-benchmarks = ['node-template-runtime/runtime-benchmarks']
+runtime-benchmarks = ['labor-node-runtime/runtime-benchmarks']
