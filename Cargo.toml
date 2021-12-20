@@ -1,7 +1,11 @@
+[profile.release]
+# Substrate runtime requires unwinding.
+panic = "unwind"
+
 [workspace]
 members = [
-    'node',
-    'runtime',
+	"node/cli",
+	"node/executor",
+	"node/runtime",
+	"pallets/*",
 ]
-[profile.release]
-panic = 'unwind'
