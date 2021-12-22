@@ -1,6 +1,6 @@
 [package]
 name = "labor-node-runtime"
-version = '0.0.1-dev'
+version = '0.0.2-dev'
 description = 'A FRAME-based Substrate runtime for the labor chain.'
 authors = ['Martijn Benjamin <https://github.com/benjamin-martijn>']
 homepage = 'https://github.com/benjamin-martijn'
@@ -15,7 +15,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 
 # local dependencies
-pallet-labor = { default-features = false, version = '0.0.1-dev', path = '../../pallets/labor' }
+pallet-labor = { default-features = false, version = '0.0.2-dev', path = '../../pallets/labor' }
 
 # third-party dependencies
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = ["derive"] }

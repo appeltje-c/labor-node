@@ -1,6 +1,6 @@
 [package]
 name = 'pallet-labor'
-version = '0.0.1-dev'
+version = '0.0.2-dev'
 description = 'FRAME pallet for defining labor runtime logic.'
 authors = ['Martijn Benjamin <https://github.com/benjamin-martijn>']
 homepage = 'https://github.com/benjamin-martijn'

@@ -2986,7 +2986,7 @@ dependencies = [
 
 [[package]]
 name = "labor-node"
-version = "0.0.1-dev"
+version = "0.0.2-dev"
 dependencies = [
  "assert_cmd",
  "async-std",
@@ -3103,7 +3103,7 @@ dependencies = [
 
 [[package]]
 name = "labor-node-runtime"
-version = "0.0.1-dev"
+version = "0.0.2-dev"
 dependencies = [
  "frame-benchmarking",
  "frame-executive",
@@ -4778,7 +4778,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-labor"
-version = "0.0.1-dev"
+version = "0.0.2-dev"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
