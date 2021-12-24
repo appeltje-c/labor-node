@@ -107,8 +107,15 @@ pub fn wasm_binary_unwrap() -> &'static [u8] {
 }
 
 /// Runtime version.
+/// spec_name: The name of the runtime/chain, e.g. Ethereum.
+/// impl_name: The name of the client, e.g. OpenEthereum.
+/// authoring_version: The authorship version for block authors.
+/// spec_version: The version of the runtime/chain.
+/// impl_version: The version of the client.
+/// apis: The list of supported APIs.
+/// transaction_version: The version of the dispatchable function interface.
 pub const VERSION: RuntimeVersion = RuntimeVersion {
-    spec_name: create_runtime_str!("labor"),
+    spec_name: create_runtime_str!("labor-network"),
     impl_name: create_runtime_str!("labor-node"),
     authoring_version: 10,
     // Per convention: if the runtime behavior changes, increment spec_version

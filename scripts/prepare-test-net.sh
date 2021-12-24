@@ -7,7 +7,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # Copy paste your mnemonic here.
-SECRET="copy meat coil ugly stomach chase horror dilemma dad green business more"
+SECRET=""
 
 generate_account_id() {
   subkey inspect ${3:-} ${4:-} "$SECRET//$1//$2" | grep "Account ID" | awk '{ print $3 }'
